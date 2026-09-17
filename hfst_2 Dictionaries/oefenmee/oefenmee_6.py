@@ -4,3 +4,5 @@ filmscores = {
     "avatar": 3,
     "oppenheimer": 7.5
 }
+for sleutel in filmscores:
+    print(f"de film {sleutel} kreeg een score van {filmscores[sleutel]} op tien .")
