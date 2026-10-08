@@ -7,3 +7,8 @@ steden_temp = { # Sleutel is stad, waarde is temp
     "Luik": 23,
     "Namen": 24
 }
+gebruiker = input("welke stad bent u : ")
+if gebruiker in steden_temp:
+    print(f"het is hier {steden_temp.get(gebruiker)} °C")
+else:
+    print("Het is hier ??? °C")

@@ -4,7 +4,7 @@ grootste_steden = {
         'Parijs': 2140526,
         'Marseille': 869815,
     },
-    'Belgi?': {
+    'Belgie?': {
         'Brussel': 1209000,
         'Antwerpen': 523248,
     },
@@ -13,3 +13,8 @@ grootste_steden = {
         'Hamburg': 1841179,
     }
 }
+print("overzicht van de grootste steden in Europese landen ")
+for landen,waarde in grootste_steden.items():
+    print(f"de grootste steden in {landen} zijn : ")
+    for stad,personen in waarde.items():
+        print(f"- {stad} met {personen} inwoners")
